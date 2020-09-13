@@ -732,12 +732,18 @@ h6{
 					05-welcome-area
 ----------------------------------------------------*/
 .welcome-area{
+	min-height: 100vh;
+}
+
+.fixed-img{
 	background-image: url(../images/main.jpg);
-	background-attachment: fixed;
-	background-size: cover;
+	position: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
 	min-height: 100vh;
+	min-width: 100vw;
 }
 
 .welcome-area .overlay-bg-75{
@@ -1316,6 +1322,11 @@ h6{
 .price-area .price-table{
 	border: 1px solid  rgba(241, 37, 77, 0.25);
 }
+
+.price-area{
+	background-color: white;
+}
+
 /*----------------------------------------------------
 					End price-area
 ----------------------------------------------------*/
@@ -1432,11 +1443,8 @@ h6{
 /*----------------------------------------------------
 					22-footer-area
 ----------------------------------------------------*/ 
-.footer-area{
-	background-image: url(../images/how.jpg);
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
+.gray-background{
+    background-color: white;
 }
 
 .footer-area .fa.address{
