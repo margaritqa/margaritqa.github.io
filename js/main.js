@@ -49,6 +49,6 @@ $(function () {
 									 
 });
 
-$(window).on("load",function (){	
-     $('.load-wrapp').fadeOut(100); 
-});
+//$(window).on("load",function (){	
+//     $('.load-wrapp').fadeOut(100); 
+//});
